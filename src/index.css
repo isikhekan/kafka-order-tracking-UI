@@ -1,0 +1,21 @@
+@import "leaflet/dist/leaflet.css";
+
+
+html, body, #root { height: 100%; margin: 0; }
+body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, Noto Sans, "Apple Color Emoji", "Segoe UI Emoji"; }
+
+
+/* Basit layout stilleri */
+.container { max-width: 1200px; margin: 0 auto; padding: 16px; }
+.card { background: #fff; border-radius: 16px; box-shadow: 0 10px 24px rgba(0,0,0,.06); padding: 16px; }
+.input { width: 100%; padding: 10px 12px; border: 1px solid #e5e7eb; border-radius: 12px; outline: none; }
+.btn { padding: 10px 16px; border-radius: 12px; border: none; color: #fff; cursor: pointer; }
+.btn-primary { background: #2563eb; }
+.btn-dark { background: #111827; }
+.grid { display: grid; grid-gap: 16px; }
+.grid-3 { grid-template-columns: 1fr 1fr 1fr; }
+.mapWrap { height: 520px; border-radius: 16px; overflow: hidden; }
+.badge { display:inline-flex; gap:8px; background:#f3f4f6; border-radius:9999px; padding:8px 12px; }
+.label { color:#6b7280; font-size: 12px; }
+.title { font-weight: 600; font-size: 20px; }
+.small { font-size: 14px; }
